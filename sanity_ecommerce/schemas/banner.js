@@ -1,4 +1,7 @@
-export default {
+import {defineConfig} from 'sanity'
+
+const schemaTypes = [
+     {
     name: 'banner',
     title: 'Banner',
     type: 'document',
@@ -57,4 +60,12 @@ export default {
             type: 'string',
         },
     ],
-  };
+  }
+]
+
+export default defineConfig({
+    schema: {
+        types: schemaTypes,
+    },
+    
+})
