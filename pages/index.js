@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import { Product, FooterBanner, Herobanner } from "@/components";
+
 const Home = () => {
   return (
   <>
