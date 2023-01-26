@@ -2,8 +2,22 @@ import React, { Component } from "react";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+  <>
+    HeroBanner
 
-export default Home
+    <div className="products-heading">
+      <h2>Best Selling Products</h2>
+      <p>Many varieties of Speakers</p>
+    </div>
+
+    <div className="products-container">
+      {['Product 1', 'Product 2'].map((product) => product)
+      }
+    </div>
+
+    Footer
+  </>
+  );
+};
+
+export default Home;
