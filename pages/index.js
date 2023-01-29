@@ -2,8 +2,7 @@ import React from "react";
 
 import { Product, FooterBanner, Herobanner } from "@/components";
 
-const Home = () => {
-  return (
+const Home = () => (
   <div>
     <Herobanner />
 
@@ -13,13 +12,11 @@ const Home = () => {
     </div>
 
     <div className="products-container">
-      {['Product 1', 'Product 2'].map((product) => product)
-      }
+      {["Product 1", "Product 2"].map((product) => product)}
     </div>
 
     <FooterBanner />
   </div>
-  );
-};
+);
 
 export default Home;
