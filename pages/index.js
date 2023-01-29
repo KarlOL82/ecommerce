@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
 import { Product, FooterBanner, Herobanner } from "@/components";
 
 const Home = () => {
   return (
-  <>
-    HeroBanner
+  <div>
+    <Herobanner />
 
     <div className="products-heading">
       <h2>Best Selling Products</h2>
@@ -17,8 +17,8 @@ const Home = () => {
       }
     </div>
 
-    Footer
-  </>
+    <FooterBanner />
+  </div>
   );
 };
 
