@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from "react-icons/ai";
 
 import { client, urlFor } from "../../lib/client";
 
@@ -11,6 +12,33 @@ const ProductDetails = ({ product, products }) => {
           <div className="image-container">
             <img src={urlFor(image && image[0])} />
           </div>
+        </div>
+        {/* <div className="small-images-container">
+            {image?.map((item, i) => (
+                <img 
+                  src={urlFor(item)}  
+                  className=""
+                  onMouseEnter=""
+                />
+            ))}           
+        </div> */}
+        <div className="product-details-desc">
+            <h1>{name}</h1>
+            <div className="reviews">
+                <div>
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiOutlineStar />
+                </div>
+                <p>
+                    (20)
+                </p>
+            </div>
+            <h4>Details: </h4>
+            <p>{details}</p>
+            <p className="price">${price}</p>
         </div>
       </div>
     </div>
@@ -46,7 +74,7 @@ export const getStaticPaths = async () => {
     const product = await client.fetch(query);
     const products = await client.fetch(productsQuery);
   
-    console.log(product);
+    // console.log(product);
   
     return {
       props: { products, product }
