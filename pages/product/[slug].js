@@ -25,13 +25,11 @@ const ProductDetails = ({ product, products }) => {
             />
           </div>
           <div className="small-images-container">
-            {image?.map((item, i) => (
-              <img
+          {image?.map((item, i) => (
+              <img 
                 key={i}
                 src={urlFor(item)}
-                className={
-                  i === index ? "small-image selected-image" : "small-image"
-                }
+                className={i === index ? 'small-image selected-image' : 'small-image'}
                 onMouseEnter={() => setIndex(i)}
               />
             ))}
@@ -83,7 +81,7 @@ const ProductDetails = ({ product, products }) => {
         <div className="marquee">
           <div className="maylike-products-container track">
             {products.map((item) => (
-              <Product key={item.id} product={item} />
+              <Product key={item._id} product={item} />
             ))}
           </div>
         </div>
