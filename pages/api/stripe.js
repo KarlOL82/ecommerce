@@ -3,7 +3,7 @@ const stripe = new Stripe(process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY);
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    console.log(req.body.cartItems);
+    console.log(req.body.cartItems)
     try {
       const params = {
         submit_type: "pay",
@@ -19,10 +19,10 @@ export default async function handler(req, res) {
           const newImage = img
             .replace(
               "image-",
-              "https://cdn.sanity.io/images/vfxfwnaw/production/"
+              "https://cdn.sanity.io/images/z4jagavb/production/"
             )
             .replace("-webp", ".webp");
-
+            
           return {
             price_data: {
               currency: "usd",
