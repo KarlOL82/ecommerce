@@ -71,7 +71,7 @@ width: 100%;
 }
 .cart-icon{
   font-size: 25px;
-  color: gray;
+  color: #f02d34;
   cursor: pointer;
   position: relative;
   transition: transform .4s ease;
@@ -84,7 +84,7 @@ width: 100%;
 .cart-item-qty{
   position: absolute;
   right: -8px;
-  font-size: 12px;
+  font-size: 14px;
   color: #eee;
   background-color: #f02d34;
   width: 18px;
@@ -229,7 +229,7 @@ text-align: end;
   border-radius: 15px;
   padding: 10px 16px;
   background-color: white;
-  color: red;
+  color: #f02d34;
   border: none;
   margin-top: 40px;
   font-size: 18px;
