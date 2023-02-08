@@ -116,13 +116,13 @@ width: 100%;
 }
 .product-image{
   border-radius: 15px;
- background-color: #ebebeb;
+ background-color: #d8d7d7;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 
 .product-name{
-  font-weight: 500;
+  font-weight: 600;
 }
 .product-price{
   font-weight: 800;
