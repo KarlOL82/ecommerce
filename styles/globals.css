@@ -132,7 +132,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #d8d7d7;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -289,7 +289,7 @@ text-align: end;
 }
 
 .footer-container{
-  color: #095195;
+  color: rgb(59, 58, 58);
   text-align: center;
   margin-top: 20px;
   padding: 30px 10px;
