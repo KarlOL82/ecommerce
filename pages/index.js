@@ -9,7 +9,7 @@ const Home = ({ products, bannerData }) => (
       {/* {console.log(bannerData)} */}
     <div className="products-heading">
       <h2>Best Selling Products</h2>
-      <p>Many varieties of Speakers</p>
+      <p>Premium Audio Devices</p>
     </div>
 
     <div className="products-container">
