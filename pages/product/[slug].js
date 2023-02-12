@@ -84,7 +84,7 @@ const ProductDetails = ({ product, products }) => {
       </div>
 
       <div className="maylike-products-wrapper">
-        <h2>You May Also Like</h2>
+        <h2>Suggested Items for You</h2>
         <div className="marquee">
           <div className="maylike-products-container track">
             {products.map((item) => (
