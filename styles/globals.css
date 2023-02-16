@@ -33,6 +33,7 @@ background-color: #f1faee;
   justify-content: space-between;
   margin: 6px 18px;
   position: relative;
+  background-color: #f1faee;
 }
 .marquee-text{
   font-size: 26px;
