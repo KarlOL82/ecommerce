@@ -26,6 +26,7 @@ background-color: #f1faee;
 }
 .layout{
   padding: 10px;
+  background-color: #f1faee;
 }
 
 .navbar-container{
@@ -304,6 +305,7 @@ text-align: end;
   align-items: center;
   gap: 10px;
   justify-content: center;
+  background-color: #f1faee;
 
 }
 .footer-container .icons{
