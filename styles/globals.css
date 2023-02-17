@@ -312,6 +312,7 @@ text-align: end;
   font-size: 30px;
   display: flex;
   gap: 10px;
+  color: rgb(5, 200, 200);
 }
  .cart-heading{
   display: flex;
