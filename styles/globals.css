@@ -472,11 +472,13 @@ padding: 30px 65px;
 
 .product-detail-desc h4{
   margin-top: 10px;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 16px;
 }
 .product-detail-desc p{
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 14px;
 }
 .reviews p{
   color: #324d67;
