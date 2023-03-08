@@ -147,6 +147,16 @@ background-color: #f1faee;
 .hero-banner-container .beats-solo{
   font-size: 20px;
 }
+
+.hero-banner-container h5 {
+  font-size: 16px;
+  padding: 5px 0px;
+}
+
+.hero-banner-container p {
+  font-weight: 400;
+}
+
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
