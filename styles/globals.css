@@ -36,6 +36,12 @@ background-color: #f1faee;
   position: relative;
   background-color: #f1faee;
 }
+
+.navbar-container a{
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .marquee-text{
   font-size: 26px;
   font-weight: 600;
